@@ -1,0 +1,24 @@
+{
+    "name": "sakura/laravel-checkout",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "application",
+            "email": "support@application.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sakura\\Checkout\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sakura\\Checkout\\Providers\\CheckoutServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}

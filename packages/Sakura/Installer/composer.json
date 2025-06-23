@@ -1,0 +1,21 @@
+{
+    "name": "sakura/laravel-installer",
+    "license": "MIT",
+    "description": "Installer package",
+    "authors": [],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sakura\\Installer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sakura\\Installer\\Providers\\InstallerServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

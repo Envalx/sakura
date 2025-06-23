@@ -1,0 +1,27 @@
+{
+    "name": "sakura/laravel-attribute",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jitendra Singh",
+            "email": "jitendra@Sakura.com"
+        }
+    ],
+    "require": {
+        "sakura/laravel-core": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sakura\\Attribute\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sakura\\Attribute\\Providers\\AttributeServiceProvider"
+            ],
+            "aliases": { }
+        }
+    },
+    "minimum-stability": "dev"
+}
